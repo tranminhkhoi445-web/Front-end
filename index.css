@@ -1,0 +1,53 @@
+
+    section {
+      padding: 60px 20px;
+    }
+
+    .page-bg {
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      min-height: 80vh;
+
+    }
+
+    .form-control:focus::placeholder {
+      color: transparent;
+    }
+
+    .sanpham {
+      background-color: beige;
+      text-align: center;
+      padding: 5px;
+      box-shadow: 0 10px 20px;
+      position: relative;
+      border-radius: 5px;
+      margin: 40px 0 40px 0;
+    }
+
+    .sanpham:hover {
+      transform: translateY(-10px);
+      transition: all 0.5s;
+    }
+
+    .a h1 {
+      box-shadow: 0 10px 20px;
+      position: relative;
+      border-radius: 5px;
+      padding: 2px 20px;
+      text-transform: uppercase;
+    }
+
+    .navbar-nav .nav-link.active {
+      text-decoration: underline;
+      text-underline-offset: 6px;
+      text-decoration-thickness: 2px;
+      text-decoration-color: #ffc107;
+    }
+    section.hidden {
+  display: none;
+}
+section.active {
+  display: block;
+}
+
